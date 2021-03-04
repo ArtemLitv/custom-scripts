@@ -1,0 +1,1 @@
+![copy](./copy_docker_image.png)

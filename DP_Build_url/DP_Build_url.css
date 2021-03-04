@@ -1,0 +1,8 @@
+.custom-link {
+	margin-left: 10px;
+	text-decoration: none !important;
+	border: 1px solid black;
+	font-size: 0.7em;
+	background-color: #eee;
+	padding: 5px;
+}
