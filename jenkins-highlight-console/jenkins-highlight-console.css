@@ -1,0 +1,41 @@
+.timestamp {
+	color: #000;
+    font-family: monospace;
+}
+
+.timestamp:after{
+    content: 'cisrvrecn/job $: ';
+}
+
+.timestamp b {
+	display: none;
+}
+
+
+._bold {
+	font-weight: bold;
+}
+
+
+._info {
+	color: cornflowerblue;
+}
+
+._error {
+	color: tomato;
+}
+
+._selected {
+	color: darkcyan;
+}
+
+._warn{
+	color: darkgoldenrod;
+}
+
+
+._highlight {
+    font-size: 14px;
+    font-style: italic;
+	color: magenta
+}

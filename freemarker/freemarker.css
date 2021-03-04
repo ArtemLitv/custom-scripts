@@ -1,0 +1,45 @@
+.footer,
+.formPanel,
+.content label,
+.resultContainer>label,
+.formBottomButtonsContainer>span {
+display: none;
+}
+
+.content {
+margin: 0;
+width: 100%
+}
+
+.pure-form {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px;
+}
+
+.pure-input-1 {
+height: 80vh !important;
+overflow: auto !important;
+white-space: nowrap;
+}
+
+
+.formBottomButtonsContainer {
+position: fixed;
+top: 0;
+flex-direction: row;
+background: #3d3d3d;
+padding: 20px 20px 7px;
+}
+
+.resultContainer {
+margin: 0;
+}
+
+.resultContainer .pure-input-1 {
+white-space: break-spaces;
+}
+
+.formBottomButtonsContainer {
+	margin: 0;
+}
